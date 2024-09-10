@@ -14,7 +14,4 @@ public class Vehiculo {
     public double getPrecio() {
         return precio;
     }
-    public void mostrarDetalles(){
-
-    }
 }

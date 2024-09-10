@@ -9,5 +9,10 @@ public class Main {
         vehiculos[3] = new Vehiculo("Subaru", "Impreza", 5000);
         vehiculos[4] = new Vehiculo("Jeep", "Wangler", 4000);
 
+        for (Vehiculo vehiculo : vehiculos) {
+            if (vehiculo.getPrecio() >= 2500 && vehiculo.getPrecio() <= 4000) {
+                System.out.println("Marca: " + vehiculo.marca + "   Modelo: " + vehiculo.modelo + "   Precio: " + vehiculo.precio);
+            }
+        }
     }
 }
