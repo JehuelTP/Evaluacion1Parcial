@@ -20,7 +20,7 @@ public class Empleado {
             salario += salario * 0.10;
             System.out.println(nombre+" ha recibido un aumento. " + "Nuevo Salaro: " +salario);
         } else {
-            System.out.println(nombre +" no califica para el aumento");
+            System.out.println(nombre +" no califica para el aumento.");
         }
     }
 }
